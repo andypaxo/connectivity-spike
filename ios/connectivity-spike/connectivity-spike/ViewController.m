@@ -7,12 +7,13 @@
 @implementation ViewController {
     NSString* downloadResult;
 }
-@synthesize textView;
+
+@synthesize webView;
 @synthesize spinner;
 
 - (void)viewDidUnload {
     [self setSpinner:nil];
-    [self setTextView:nil];
+    [self setWebView:nil];
     [super viewDidUnload];
 }
 
@@ -51,6 +52,8 @@
 }
 
 - (void) updateUi {
-    self.textView.text = downloadResult;
+    // NOTE: This is a very silly way to use a web view
+    [webView loadHTMLString:downloadResult baseURL:[NSURL URLWithString:@"http://github.com"]];
+    [spinner stopAnimating];
 }
 @end
