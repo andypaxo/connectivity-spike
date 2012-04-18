@@ -1,0 +1,444 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A17ED502153E553200576603 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A17ED501153E553200576603 /* UIKit.framework */; };
+		A17ED504153E553200576603 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A17ED503153E553200576603 /* Foundation.framework */; };
+		A17ED506153E553200576603 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A17ED505153E553200576603 /* CoreGraphics.framework */; };
+		A17ED50C153E553200576603 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A17ED50A153E553200576603 /* InfoPlist.strings */; };
+		A17ED50E153E553200576603 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A17ED50D153E553200576603 /* main.m */; };
+		A17ED512153E553200576603 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A17ED511153E553200576603 /* AppDelegate.m */; };
+		A17ED515153E553200576603 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A17ED513153E553200576603 /* MainStoryboard.storyboard */; };
+		A17ED518153E553200576603 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A17ED517153E553200576603 /* ViewController.m */; };
+		A17ED520153E553200576603 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A17ED51F153E553200576603 /* SenTestingKit.framework */; };
+		A17ED521153E553200576603 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A17ED501153E553200576603 /* UIKit.framework */; };
+		A17ED522153E553200576603 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A17ED503153E553200576603 /* Foundation.framework */; };
+		A17ED52A153E553200576603 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A17ED528153E553200576603 /* InfoPlist.strings */; };
+		A17ED52D153E553200576603 /* connectivity_spikeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A17ED52C153E553200576603 /* connectivity_spikeTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A17ED523153E553200576603 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A17ED4F4153E553200576603 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A17ED4FC153E553200576603;
+			remoteInfo = "connectivity-spike";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A17ED4FD153E553200576603 /* connectivity-spike.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "connectivity-spike.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A17ED501153E553200576603 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A17ED503153E553200576603 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A17ED505153E553200576603 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A17ED509153E553200576603 /* connectivity-spike-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "connectivity-spike-Info.plist"; sourceTree = "<group>"; };
+		A17ED50B153E553200576603 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A17ED50D153E553200576603 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A17ED50F153E553200576603 /* connectivity-spike-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "connectivity-spike-Prefix.pch"; sourceTree = "<group>"; };
+		A17ED510153E553200576603 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A17ED511153E553200576603 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A17ED514153E553200576603 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		A17ED516153E553200576603 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A17ED517153E553200576603 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A17ED51E153E553200576603 /* connectivity-spikeTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "connectivity-spikeTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A17ED51F153E553200576603 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		A17ED527153E553200576603 /* connectivity-spikeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "connectivity-spikeTests-Info.plist"; sourceTree = "<group>"; };
+		A17ED529153E553200576603 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A17ED52B153E553200576603 /* connectivity_spikeTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = connectivity_spikeTests.h; sourceTree = "<group>"; };
+		A17ED52C153E553200576603 /* connectivity_spikeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = connectivity_spikeTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A17ED4FA153E553200576603 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A17ED502153E553200576603 /* UIKit.framework in Frameworks */,
+				A17ED504153E553200576603 /* Foundation.framework in Frameworks */,
+				A17ED506153E553200576603 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A17ED51A153E553200576603 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A17ED520153E553200576603 /* SenTestingKit.framework in Frameworks */,
+				A17ED521153E553200576603 /* UIKit.framework in Frameworks */,
+				A17ED522153E553200576603 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A17ED4F2153E553200576603 = {
+			isa = PBXGroup;
+			children = (
+				A17ED507153E553200576603 /* connectivity-spike */,
+				A17ED525153E553200576603 /* connectivity-spikeTests */,
+				A17ED500153E553200576603 /* Frameworks */,
+				A17ED4FE153E553200576603 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A17ED4FE153E553200576603 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A17ED4FD153E553200576603 /* connectivity-spike.app */,
+				A17ED51E153E553200576603 /* connectivity-spikeTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A17ED500153E553200576603 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A17ED501153E553200576603 /* UIKit.framework */,
+				A17ED503153E553200576603 /* Foundation.framework */,
+				A17ED505153E553200576603 /* CoreGraphics.framework */,
+				A17ED51F153E553200576603 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A17ED507153E553200576603 /* connectivity-spike */ = {
+			isa = PBXGroup;
+			children = (
+				A17ED510153E553200576603 /* AppDelegate.h */,
+				A17ED511153E553200576603 /* AppDelegate.m */,
+				A17ED513153E553200576603 /* MainStoryboard.storyboard */,
+				A17ED516153E553200576603 /* ViewController.h */,
+				A17ED517153E553200576603 /* ViewController.m */,
+				A17ED508153E553200576603 /* Supporting Files */,
+			);
+			path = "connectivity-spike";
+			sourceTree = "<group>";
+		};
+		A17ED508153E553200576603 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A17ED509153E553200576603 /* connectivity-spike-Info.plist */,
+				A17ED50A153E553200576603 /* InfoPlist.strings */,
+				A17ED50D153E553200576603 /* main.m */,
+				A17ED50F153E553200576603 /* connectivity-spike-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A17ED525153E553200576603 /* connectivity-spikeTests */ = {
+			isa = PBXGroup;
+			children = (
+				A17ED52B153E553200576603 /* connectivity_spikeTests.h */,
+				A17ED52C153E553200576603 /* connectivity_spikeTests.m */,
+				A17ED526153E553200576603 /* Supporting Files */,
+			);
+			path = "connectivity-spikeTests";
+			sourceTree = "<group>";
+		};
+		A17ED526153E553200576603 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A17ED527153E553200576603 /* connectivity-spikeTests-Info.plist */,
+				A17ED528153E553200576603 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A17ED4FC153E553200576603 /* connectivity-spike */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A17ED530153E553200576603 /* Build configuration list for PBXNativeTarget "connectivity-spike" */;
+			buildPhases = (
+				A17ED4F9153E553200576603 /* Sources */,
+				A17ED4FA153E553200576603 /* Frameworks */,
+				A17ED4FB153E553200576603 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "connectivity-spike";
+			productName = "connectivity-spike";
+			productReference = A17ED4FD153E553200576603 /* connectivity-spike.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A17ED51D153E553200576603 /* connectivity-spikeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A17ED533153E553200576603 /* Build configuration list for PBXNativeTarget "connectivity-spikeTests" */;
+			buildPhases = (
+				A17ED519153E553200576603 /* Sources */,
+				A17ED51A153E553200576603 /* Frameworks */,
+				A17ED51B153E553200576603 /* Resources */,
+				A17ED51C153E553200576603 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A17ED524153E553200576603 /* PBXTargetDependency */,
+			);
+			name = "connectivity-spikeTests";
+			productName = "connectivity-spikeTests";
+			productReference = A17ED51E153E553200576603 /* connectivity-spikeTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A17ED4F4153E553200576603 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = A17ED4F7153E553200576603 /* Build configuration list for PBXProject "connectivity-spike" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A17ED4F2153E553200576603;
+			productRefGroup = A17ED4FE153E553200576603 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A17ED4FC153E553200576603 /* connectivity-spike */,
+				A17ED51D153E553200576603 /* connectivity-spikeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A17ED4FB153E553200576603 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A17ED50C153E553200576603 /* InfoPlist.strings in Resources */,
+				A17ED515153E553200576603 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A17ED51B153E553200576603 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A17ED52A153E553200576603 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A17ED51C153E553200576603 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A17ED4F9153E553200576603 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A17ED50E153E553200576603 /* main.m in Sources */,
+				A17ED512153E553200576603 /* AppDelegate.m in Sources */,
+				A17ED518153E553200576603 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A17ED519153E553200576603 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A17ED52D153E553200576603 /* connectivity_spikeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A17ED524153E553200576603 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A17ED4FC153E553200576603 /* connectivity-spike */;
+			targetProxy = A17ED523153E553200576603 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A17ED50A153E553200576603 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A17ED50B153E553200576603 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A17ED513153E553200576603 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A17ED514153E553200576603 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+		A17ED528153E553200576603 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A17ED529153E553200576603 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A17ED52E153E553200576603 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A17ED52F153E553200576603 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A17ED531153E553200576603 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "connectivity-spike/connectivity-spike-Prefix.pch";
+				INFOPLIST_FILE = "connectivity-spike/connectivity-spike-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A17ED532153E553200576603 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "connectivity-spike/connectivity-spike-Prefix.pch";
+				INFOPLIST_FILE = "connectivity-spike/connectivity-spike-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		A17ED534153E553200576603 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/connectivity-spike.app/connectivity-spike";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "connectivity-spike/connectivity-spike-Prefix.pch";
+				INFOPLIST_FILE = "connectivity-spikeTests/connectivity-spikeTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		A17ED535153E553200576603 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/connectivity-spike.app/connectivity-spike";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "connectivity-spike/connectivity-spike-Prefix.pch";
+				INFOPLIST_FILE = "connectivity-spikeTests/connectivity-spikeTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A17ED4F7153E553200576603 /* Build configuration list for PBXProject "connectivity-spike" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A17ED52E153E553200576603 /* Debug */,
+				A17ED52F153E553200576603 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A17ED530153E553200576603 /* Build configuration list for PBXNativeTarget "connectivity-spike" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A17ED531153E553200576603 /* Debug */,
+				A17ED532153E553200576603 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A17ED533153E553200576603 /* Build configuration list for PBXNativeTarget "connectivity-spikeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A17ED534153E553200576603 /* Debug */,
+				A17ED535153E553200576603 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A17ED4F4153E553200576603 /* Project object */;
+}
