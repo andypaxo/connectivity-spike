@@ -10,4 +10,8 @@
 
 @interface ViewController : UIViewController
 
+- (IBAction)startDownload:(id)sender;
+@property (weak, nonatomic) IBOutlet UITextView *textView;
+@property (weak, nonatomic) IBOutlet UIActivityIndicatorView *spinner;
+
 @end
