@@ -4,7 +4,9 @@
 
 @end
 
-@implementation ViewController
+@implementation ViewController {
+    NSString* downloadResult;
+}
 @synthesize textView;
 @synthesize spinner;
 
@@ -32,18 +34,23 @@
              [self showError:error];
          else
              [self showData:data];
+         [self performSelectorOnMainThread:@selector(updateUi) withObject:nil waitUntilDone:false];
      }];
 }
 
 - (void) showFail {
-    NSLog(@"Failed to download anything");
+    downloadResult = @"Failed to download anything";
 }
 
 - (void) showError: (NSError*) error {
-    NSLog(@"Error: %@", error);
+    downloadResult = [NSString stringWithFormat:@"Error: %@", error];
 }
 
 - (void) showData: (NSData*) data {
-    NSLog([[NSString alloc] initWithData:data encoding:NSUTF8StringEncoding]);
+    downloadResult = [[NSString alloc] initWithData:data encoding:NSUTF8StringEncoding];
+}
+
+- (void) updateUi {
+    self.textView.text = downloadResult;
 }
 @end
